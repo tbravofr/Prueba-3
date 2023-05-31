@@ -10870,7 +10870,7 @@ html {
   font-weight: 800;
 }
 
-.sidebar-wrapper {
+#sidebar-wrapper {
   position: fixed;
   z-index: 2;
   right: 0;
@@ -10930,7 +10930,7 @@ html {
   background: none;
 }
 
-.sidebar-wrapper.active {
+#sidebar-wrapper.active {
   right: 250px;
   width: 250px;
   transition: all 0.4s ease 0s;
