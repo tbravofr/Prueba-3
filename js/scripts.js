@@ -3,41 +3,28 @@
 * Copyright 2013-2023 Start Bootstrap
 * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-stylish-portfolio/blob/master/LICENSE)
 */
-{
-  "section": "content-section",
-  "class": "row gx-0",
-  "items": [
-    {
-      "caption": {
-        "h2": "Stationary",
-        "p": "A yellow pencil with envelopes on a clean, blue backdrop!"
-      },
-      "img": "assets/img/portfolio-1.jpg"
-    },
-    {
-      "caption": {
-        "h2": "Ice Cream",
-        "p": "A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!"
-      },
-      "img": "assets/img/portfolio-2.jpg"
-    },
-    {
-      "caption": {
-        "h2": "Strawberries",
-        "p": "Strawberries are such a tasty snack, especially with a little sugar on top!"
-      },
-      "img": "assets/img/portfolio-3.jpg"
-    },
-    {
-      "caption": {
-        "h2": "Workspace",
-        "p": "A yellow workspace with some scissors, pencils, and other objects."
-      },
-      "img": "assets/img/portfolio-4.jpg"
-    }
-  ]
-}
-
+const portfolioData = [
+  {
+    title: "DISEÑO GRÁFICO",
+    description: "El diseño gráfico en mi caso es trabajo con marcas y sus diferentes requisitos, mis trabajos incluyen diseño de gráficas web, diseño de packaging, etc.",
+    imgSrc: "assets/img/portfolio-1.jpg"
+  },
+  {
+    title: "FOTOGRAFÍA",
+    description: "La fotografía para mi es más que nada un hobbie, sin embargo, disfruto mucho organizar paseos y salidas para fotografiar los distintos paisajes, personas y animales.",
+    imgSrc: "assets/img/portfolio-2.jpg"
+  },
+  {
+    title: "ILUSTRACION GRAFITO",
+    description: "El dibujo ha sido parte importante de mi desarrollo como diseñadora, es lo que más me gusta hacer y lo hago desde muy pequeña. Me inclino principalmente hacia el área del realismo.",
+    imgSrc: "assets/img/portfolio-3.jpg"
+  },
+  {
+    title: "ILUSTRACIÓN DIGITAL",
+    description: "La ilustración digital nació del traspaso de mis habilidades análogas a los programas procreate e illustrator. Es una forma innovadora y muy entretenida de representar mis ideas.",
+    imgSrc: "assets/img/portfolio-4.jpg"
+  }
+];
 window.addEventListener('DOMContentLoaded', event => {
 
     const sidebarWrapper = document.getElementById('sidebar-wrapper');
